@@ -9,12 +9,12 @@ import java.util.StringTokenizer;
 
 public class MyIO {
 
-    public static FastScanner getInByFile() {
+    public static FastScanner getIn() {
         return new FastScanner();
     }
 
-    public static PrintWriter getOutByFile() {
-        return new PrintWriter(new OutputStreamWriter(System.out));
+    public static PrintStream getOut() {
+        return System.out;//new PrintWriter(new OutputStreamWriter(System.out));
     }
 
     public static class FastScanner {

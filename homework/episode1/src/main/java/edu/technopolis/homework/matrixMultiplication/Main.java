@@ -1,4 +1,4 @@
-package edu.technopolis.homework.matrixMultiply;
+package edu.technopolis.homework.matrixMultiplication;
 
 import edu.technopolis.homework.MyIO;
 
@@ -7,9 +7,9 @@ import edu.technopolis.homework.MyIO;
  * <br/>
  * Matrix dimension and elements are passed as CLI arguments.
  */
-public class MatrixMultiplication {
+public class Main {
     public static void main(String... args) {
-        MyIO.FastScanner in = MyIO.getInByFile();
+        MyIO.FastScanner in = MyIO.getIn();
         Matrix matrix1, matrix2;
 
         int n1, m1, n2, m2;

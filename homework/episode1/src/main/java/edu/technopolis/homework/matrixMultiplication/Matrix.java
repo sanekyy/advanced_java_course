@@ -1,4 +1,4 @@
-package edu.technopolis.homework.matrixMultiply;
+package edu.technopolis.homework.matrixMultiplication;
 
 import com.sun.istack.internal.NotNull;
 import com.sun.istack.internal.Nullable;
